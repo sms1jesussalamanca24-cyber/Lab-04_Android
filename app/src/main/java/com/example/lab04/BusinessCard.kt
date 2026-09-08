@@ -49,9 +49,18 @@ fun BusinessCard() {
                 Text(text = "@JesusDev", fontSize = 16.sp)
             }
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Icon(Icons.Filled.Email, contentDescription = "Email", tint = Color(0xFF006d3b))
+                Icon(
+                    imageVector = Icons.Filled.Email,
+                    contentDescription = "Email",
+                    tint = Color(0xFF6200EE)
+                )
                 Spacer(modifier = Modifier.width(16.dp))
-                Text(text = "sms1jesussalamanca24@gmail.com", fontSize = 16.sp)
+                Text(
+                    text = "sms1jesussalamanca24@gmail.com",
+                    fontSize = 18.sp,
+                    color = Color(0xFF6200EE),
+                    fontWeight = FontWeight.Medium
+                )
             }
         }
     }
