@@ -1,6 +1,7 @@
 package com.example.lab04
 
 //Jesus Salamanca (B)
+//Jesus Salamanca (A)
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
