@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Lab04Theme {
                 Scaffold { innerPadding ->
-                    TaskTracker(modifier = Modifier.padding(innerPadding))
+                    WellnessScreen(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
