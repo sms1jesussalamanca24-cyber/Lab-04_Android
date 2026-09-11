@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Lab04Theme {
                 Scaffold { innerPadding ->
-                    MovieCounter(modifier = Modifier.padding(innerPadding))
+                    TaskTracker(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
